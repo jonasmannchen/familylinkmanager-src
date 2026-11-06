@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.gms.kids.setup.widget.KidSetupNavBar
+        android:id="@+id/kidsetup_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:useGlifLayout="false"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:layout_above="@+id/kidsetup_nav_bar"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp">
+        <include layout="@layout/kidsetup_fragment_skeleton"/>
+    </FrameLayout>
+</RelativeLayout>

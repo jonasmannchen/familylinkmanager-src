@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <ProgressBar
+        android:id="@+id/geller_progress_bar"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="?attr/colorPrimary"
+        android:indeterminateTintMode="src_in"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waiting_for_parent_description"
+        style="@style/KidSetup.Subheading"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Não foi possível bloquear alguns apps.</item>
+        <item quantity="one">Não foi possível bloquear um app.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Não foi possível bloquear esses apps no dispositivo. Eles podem ser exigidos pela sua operadora móvel ou pelo fabricante do dispositivo.</item>
+        <item quantity="one">Não foi possível bloquear esse app no dispositivo. Ele pode ser exigido pela sua operadora móvel ou pelo fabricante do dispositivo.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Você tem %1$d dispositivos que não funcionarão mais com sua conta</item>
+        <item quantity="one">Você tem %1$d dispositivo que não funcionará mais com sua conta</item>
+    </plurals>
+</resources>

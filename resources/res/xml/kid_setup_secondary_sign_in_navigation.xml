@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/kidsetup_destination_parent_escalation_secondary_sign_in">
+    <fragment
+        android:name="com.google.android.gms.kids.setup.sentinel.CancelFragment"
+        android:id="@+id/kidsetup_destination_cancel"/>
+    <fragment
+        android:name="com.google.android.gms.kids.setup.sentinel.DoneFragment"
+        android:id="@+id/kidsetup_destination_done"/>
+    <fragment
+        android:name="com.google.android.gms.kids.setup.fragment.AddSecondaryAccountFragment"
+        android:id="@+id/kidsetup_destination_parent_escalation_secondary_sign_in">
+        <action
+            android:id="@+id/kidsetup_action_next"
+            app:destination="@+id/kidsetup_destination_done"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1072"
+    android:versionName="flm.release.1.0.0.257492102"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="com.google.android.apps.kids.familylinkmanager"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9">
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:label="@string/application_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.google.android.apps.kids.familylinkmanager.FlmApplication"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.google.android.apps.kids.familylinkmanager.MainActivity"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name="com.google.android.gms.kids.LockscreenActivity"
+            android:permission="com.google.android.gms.permission.INTERNAL_BROADCAST"
+            android:enabled="false"
+            android:exported="true"
+            android:taskAffinity=""
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name="com.google.android.gms.kids.KidSetupActivity"
+            android:enabled="true"
+            android:exported="true"/>
+        <activity-alias
+            android:name="com.google.android.gms.kids.SyncTailTrapperActivity"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.google.android.gms.kids.KidSetupActivity">
+            <intent-filter>
+                <action android:name="android.app.action.PROVISION_FINALIZATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseActivity"
+            android:exported="false"/>
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.google.android.apps.kids.familylinkmanager.lifecycle-trojan"/>
+    </application>
+</manifest>

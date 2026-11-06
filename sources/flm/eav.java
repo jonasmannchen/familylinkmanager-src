@@ -1,0 +1,22 @@
+package flm;
+
+import java.util.ListIterator;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class eav extends eau implements ListIterator {
+    protected eav() {
+    }
+
+    @Override // java.util.ListIterator
+    @Deprecated
+    public final void add(Object obj) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override // java.util.ListIterator
+    @Deprecated
+    public final void set(Object obj) {
+        throw new UnsupportedOperationException();
+    }
+}

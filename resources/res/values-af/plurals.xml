@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Kon sommige programme nie blokkeer nie.</item>
+        <item quantity="one">Kon &apos;n program nie blokkeer nie.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Hierdie programme kon nie op hierdie toestel geblokkeer word nie. Jou diensverskaffer of toestelvervaardiger vereis hulle dalk.</item>
+        <item quantity="one">Hierdie program kon nie op hierdie toestel geblokkeer word nie. Jou diensverskaffer of toestelvervaardiger vereis dit dalk.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Jy het %1$d toestelle wat nie meer met jou rekening sal werk nie</item>
+        <item quantity="one">Jy het %1$d toestel wat nie meer met jou rekening sal werk nie</item>
+    </plurals>
+</resources>

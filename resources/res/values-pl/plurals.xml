@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Nie udało się zablokować niektórych aplikacji.</item>
+        <item quantity="one">Nie udało się zablokować aplikacji.</item>
+        <item quantity="few">Nie udało się zablokować niektórych aplikacji.</item>
+        <item quantity="many">Nie udało się zablokować niektórych aplikacji.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Na tym urządzeniu nie można zablokować tych aplikacji. Mogą być one wymagane przez operatora sieci komórkowej lub producenta urządzenia.</item>
+        <item quantity="one">Na tym urządzeniu nie można zablokować tej aplikacji. Może być ona wymagana przez operatora sieci komórkowej lub producenta urządzenia.</item>
+        <item quantity="few">Na tym urządzeniu nie można zablokować tych aplikacji. Mogą być one wymagane przez operatora sieci komórkowej lub producenta urządzenia.</item>
+        <item quantity="many">Na tym urządzeniu nie można zablokować tych aplikacji. Mogą być one wymagane przez operatora sieci komórkowej lub producenta urządzenia.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">]%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Masz %1$d urządzenia, na których Twoje konto nie będzie działać</item>
+        <item quantity="one">Masz %1$d urządzenie, na którym Twoje konto nie będzie działać</item>
+        <item quantity="few">Masz %1$d urządzenia, na których Twoje konto nie będzie działać</item>
+        <item quantity="many">Masz %1$d urządzeń, na których Twoje konto nie będzie działać</item>
+    </plurals>
+</resources>

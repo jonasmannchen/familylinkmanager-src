@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">לא ניתן היה לחסום אפליקציות מסוימות.</item>
+        <item quantity="one">לא ניתן היה לחסום אפליקציה כלשהי.</item>
+        <item quantity="two">לא ניתן היה לחסום אפליקציות מסוימות.</item>
+        <item quantity="many">לא ניתן היה לחסום אפליקציות מסוימות.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">לא ניתן היה לחסום אפליקציות אלה במכשיר זה. ייתכן שהן נדרשות לספק השירותים לנייד או ליצרן המכשיר.</item>
+        <item quantity="one">לא ניתן היה לחסום את האפליקציה הזו במכשיר זה. ייתכן שהיא נדרשת לספק השירותים לנייד או ליצרן המכשיר.</item>
+        <item quantity="two">לא ניתן היה לחסום אפליקציות אלה במכשיר זה. ייתכן שהן נדרשות לספק השירותים לנייד או ליצרן המכשיר.</item>
+        <item quantity="many">לא ניתן היה לחסום אפליקציות אלה במכשיר זה. ייתכן שהן נדרשות לספק השירותים לנייד או ליצרן המכשיר.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d שע‘</item>
+        <item quantity="one">%d שע‘</item>
+        <item quantity="two">%d שע‘</item>
+        <item quantity="many">%d שע‘</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d דק‘</item>
+        <item quantity="one">%d דק‘</item>
+        <item quantity="two">%d דק‘</item>
+        <item quantity="many">%d דק‘</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">‏%d דקות</item>
+        <item quantity="one">‏%d דקה</item>
+        <item quantity="two">‏%d דקות</item>
+        <item quantity="many">‏%d דקות</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">יש לך %1$d מכשירים שלא יפעלו יותר עם החשבון שלך</item>
+        <item quantity="one">יש לך מכשיר אחד (%1$d) שלא יפעל יותר עם החשבון שלך</item>
+        <item quantity="two">יש לך %1$d מכשירים שלא יפעלו יותר עם החשבון שלך</item>
+        <item quantity="many">יש לך %1$d מכשירים שלא יפעלו יותר עם החשבון שלך</item>
+    </plurals>
+</resources>

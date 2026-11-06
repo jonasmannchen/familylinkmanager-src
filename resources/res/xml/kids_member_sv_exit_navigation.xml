@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/member_sv_exit_start_destination">
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitInitialFragment"
+        android:id="@+id/member_sv_exit_start_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitCooldownFragment"
+        android:id="@+id/member_sv_exit_cooldown_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitRequestFragment"
+        android:id="@+id/member_sv_exit_request_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitLockdownFragment"
+        android:id="@+id/member_sv_exit_lockdown_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitUnlockFragment"
+        android:id="@+id/member_sv_exit_unlock_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitCompleteFragment"
+        android:id="@+id/member_sv_exit_complete_destination"/>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.geller.MemberSvExitCancelFragment"
+        android:id="@+id/member_sv_exit_cancel_destination"/>
+</navigation>

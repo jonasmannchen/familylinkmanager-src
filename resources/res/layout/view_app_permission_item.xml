@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <com.google.android.gms.kids.setup.widget.EnhancedNetworkImageView
+        android:id="@+id/kidsetup_app_permission_item_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/kidsetup_app_permission_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/kidsetup_app_permission_item_icon"
+        style="@style/quantum_text_subhead_black"/>
+    <TextView
+        android:textColor="@color/quantum_black_secondary_text"
+        android:id="@+id/kidsetup_app_permission_item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kidsetup_app_permission_item_title"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_alignStart="@+id/kidsetup_app_permission_item_title"
+        style="@style/quantum_text_body_1_black"/>
+</RelativeLayout>

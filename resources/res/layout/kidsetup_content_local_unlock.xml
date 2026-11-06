@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.textfield.TextInputLayout
+        android:id="@+id/kidsetup_local_unlock_editor_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/kidsetup_edit_text_error_style">
+        <com.google.android.gms.kids.widget.PinCodeEditor
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/kidsetup_local_unlock_pin_code_editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="6"
+            android:inputType="number"
+            style="@style/TextAppearance.AppCompat.Headline"/>
+    </android.support.design.textfield.TextInputLayout>
+    <TextView
+        android:textColor="?android:attr/textColorLink"
+        android:gravity="center"
+        android:id="@+id/kidsetup_local_unlock_need_help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/local_unlock_need_help_button"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+</LinearLayout>

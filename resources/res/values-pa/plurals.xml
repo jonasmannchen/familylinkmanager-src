@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">ਕੁਝ ਐਪਾਂ ਨੂੰ ਬਲਾਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।</item>
+        <item quantity="one">ਐਪ ਨੂੰ ਬਲਾਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">ਇਹਨਾਂ ਐਪਾਂ ਨੂੰ ਇਸ ਡੀਵਾਈਸ &apos;ਤੇ ਬਲਾਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਮੋਬਾਈਲ ਕੈਰੀਅਰ ਜਾਂ ਡੀਵਾਈਸ ਨਿਰਮਾਤਾ ਨੂੰ ਇਹਨਾਂ ਦੀ ਲੋੜ ਹੋਵੇ।</item>
+        <item quantity="one">ਇਸ ਐਪ ਨੂੰ ਇਸ ਡੀਵਾਈਸ &apos;ਤੇ ਬਲਾਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਮੋਬਾਈਲ ਕੈਰੀਅਰ ਜਾਂ ਡੀਵਾਈਸ ਨਿਰਮਾਤਾ ਨੂੰ ਇਸਦੀ ਲੋੜ ਹੋਵੇ।</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d ਘੰਟੇ</item>
+        <item quantity="one">%d ਘੰਟਾ</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d ਮਿੰਟ</item>
+        <item quantity="one">%d ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d ਮਿੰਟ</item>
+        <item quantity="one">%d ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">ਤੁਹਾਡੇ %1$d ਡੀਵਾਈਸ ਹੁਣ ਤੁਹਾਡੇ ਖਾਤੇ &apos;ਤੇ ਕੰਮ ਨਹੀਂ ਕਰਣਗੇ</item>
+        <item quantity="one">ਤੁਹਾਡਾ %1$d ਡੀਵਾਈਸ ਹੁਣ ਤੁਹਾਡੇ ਖਾਤੇ &apos;ਤੇ ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ</item>
+    </plurals>
+</resources>

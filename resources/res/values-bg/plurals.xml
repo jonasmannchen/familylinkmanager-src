@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Някои приложения не можаха да бъдат блокирани.</item>
+        <item quantity="one">Приложението не можа да бъде блокирано.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Тези приложения не можаха да бъдат блокирани на устройството. Възможно е те да се изискват от мобилния ви оператор или от производителя на устройството ви.</item>
+        <item quantity="one">Това приложение не можа да бъде блокирано на устройството. Възможно е то да се изисква от мобилния ви оператор или от производителя на устройството ви.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Имате %1$d устройства, които вече няма да работят с профила ви</item>
+        <item quantity="one">Имате %1$d устройство, което вече няма да работи с профила ви</item>
+    </plurals>
+</resources>

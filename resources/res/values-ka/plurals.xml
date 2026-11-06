@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">ზოგიერთი აპის დაბლოკვა ვერ მოხერხდა.</item>
+        <item quantity="one">აპის დაბლოკვა ვერ მოხერხდა.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">აპის დაბლოკვა ამ მოწყობილობაზე ვერ მოხერხდა. ის შესაძლოა მოითხოვებოდეს მოწყობილობის მწარმოებლის ან მობილური კავშირის ოპერატორის მიერ.</item>
+        <item quantity="one">აპის დაბლოკვა ამ მოწყობილობაზე ვერ მოხერხდა. ის შესაძლოა მოითხოვებოდეს მოწყობილობის მწარმოებლის ან მობილური კავშირის ოპერატორის მიერ.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d სთ</item>
+        <item quantity="one">%d სთ</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d წთ</item>
+        <item quantity="one">%d წთ</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">თქვენ გაქვთ %1$d მოწყობილობა, რომლებიც აღარ იმუშავებს თქვენს ანგარიშთან</item>
+        <item quantity="one">თქვენ გაქვთ %1$d მოწყობილობა, რომელიც აღარ იმუშავებს თქვენს ანგარიშთან</item>
+    </plurals>
+</resources>

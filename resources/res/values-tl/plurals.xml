@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Hindi ma-block ang ilang app.</item>
+        <item quantity="one">Hindi ma-block ang ilang app.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Hindi ma-block ang mga app na ito sa device na ito. Maaaring kinakailangan ang mga ito ng iyong mobile carrier o manufacturer ng device.</item>
+        <item quantity="one">Hindi ma-block ang mga app na ito sa device na ito. Maaaring kinakailangan ang mga ito ng iyong mobile carrier o manufacturer ng device.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d na oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d na minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d na minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">May %1$d na device kang hindi na gagana sa iyong account</item>
+        <item quantity="one">May %1$d device kang hindi na gagana sa iyong account</item>
+    </plurals>
+</resources>

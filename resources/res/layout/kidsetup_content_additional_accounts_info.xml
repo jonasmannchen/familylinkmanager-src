@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:textStyle="bold"
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accounts_to_remove_heading"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+    <com.google.android.gms.kids.widget.TextViewWithActionLink
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accounts_to_remove_description"
+        app:actionLinkUrl="@string/account_removal_learn_more_url"
+        app:actionLinkText="@string/common_learn_more"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/additional_accounts_list"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.gms.kids.widget.TextViewWithActionLink
+        android:gravity="start"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/education_account_details"
+        app:actionLinkUrl="@string/education_account_removal_learn_more_url"
+        app:actionLinkText="@string/common_learn_more"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+</LinearLayout>

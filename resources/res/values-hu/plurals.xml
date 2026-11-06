@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Néhány alkalmazást nem sikerült letiltani.</item>
+        <item quantity="one">Egy alkalmazást nem sikerült letiltani.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Ezeket az alkalmazásokat nem sikerült letiltani ezen az eszközön. Lehet, hogy a mobilszolgáltató vagy az eszköz gyártója igényli őket.</item>
+        <item quantity="one">Ezt az alkalmazást nem sikerült letiltani ezen az eszközön. Lehet, hogy a mobilszolgáltató vagy az eszköz gyártója igényli.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">%1$d olyan eszközzel rendelkezel, amely ezentúl nem működik a fiókoddal</item>
+        <item quantity="one">%1$d olyan eszközzel rendelkezel, amely ezentúl nem működik a fiókoddal</item>
+    </plurals>
+</resources>

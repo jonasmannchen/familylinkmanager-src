@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kids_time_limit_whitelist_app_item_container"
+    android:padding="@dimen/kids_time_limit_whitelist_app_item_padding"
+    android:layout_width="@dimen/kids_time_limit_whitelist_app_item_width"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/kids_time_limit_whitelist_app_item_icon"
+        android:layout_width="@dimen/kids_time_limit_whitelist_app_icon_size"
+        android:layout_height="@dimen/kids_time_limit_whitelist_app_icon_size"
+        android:layout_margin="@dimen/kids_time_limit_whitelist_app_icon_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:textColor="@color/quantum_black_text"
+        android:id="@+id/kids_time_limit_whitelist_app_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kids_time_limit_whitelist_app_item_icon"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"/>
+</RelativeLayout>

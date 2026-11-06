@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">केही अनुप्रयोगहरूमाथि रोक लगाउन सकिएन।</item>
+        <item quantity="one">कुनै पनि अनुप्रयोगमाथि रोक लगाउन सकिएन।</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">यो यन्त्रमा यी अनुप्रयोगहरूमाथि रोक लागउन सकिँदैन। तपाईंको मोबाइलको सेवा प्रदायक वा यन्त्रको निर्मातालाई यिनको आवश्यकता पर्न सक्छ।</item>
+        <item quantity="one">यो यन्त्रमा यस अनुप्रयोगमाथि रोक लगाउन सकिँदैन। तपाईंको मोबाइलको सेवा प्रदायक वा यन्त्रको निर्मातालाई यसको आवश्यकता पर्न सक्छ।</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d घन्टा</item>
+        <item quantity="one">%d घन्टा</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d मिनेट</item>
+        <item quantity="one">%d मिनेट</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d मिनेट</item>
+        <item quantity="one">%d मिनेट</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">तपाईंसँग रहेका %1$d यन्त्रहरूले अब उप्रान्त तपाईंको खातामा काम गर्ने छैनन्</item>
+        <item quantity="one">तपाईंसँग रहेको %1$d यन्त्रले अब उप्रान्त तपाईंको खातामा काम गर्ने छैन</item>
+    </plurals>
+</resources>

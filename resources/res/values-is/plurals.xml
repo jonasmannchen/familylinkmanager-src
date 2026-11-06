@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Ekki var hægt að loka á einhver forrit.</item>
+        <item quantity="one">Ekki var hægt að loka á einhver forrit.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Ekki var hægt að loka á þessi forrit í þessu tæki. Þau kunna að vera áskilin af símafyrirtækinu þínu eða framleiðanda tækisins.</item>
+        <item quantity="one">Ekki var hægt að loka á þessi forrit í þessu tæki. Þau kunna að vera áskilin af símafyrirtækinu þínu eða framleiðanda tækisins.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d klst.</item>
+        <item quantity="one">%d klst.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d mín.</item>
+        <item quantity="one">%d mín.</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Þú ert með %1$d tæki sem virka ekki lengur með reikningnum þínum</item>
+        <item quantity="one">Þú ert með %1$d tæki sem virkar ekki lengur með reikningnum þínum</item>
+    </plurals>
+</resources>

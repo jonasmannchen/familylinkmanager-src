@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/quantum_black_secondary_text"
+        android:gravity="center"
+        android:id="@+id/kidsetup_app_detail_read_more_promotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        style="@style/quantum_text_subhead_black"/>
+    <TextView
+        android:id="@+id/kidsetup_app_detail_read_more_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:lineSpacingMultiplier="1.2"
+        style="@style/quantum_text_subhead_black"/>
+</LinearLayout>

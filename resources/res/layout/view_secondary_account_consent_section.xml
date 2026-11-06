@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.kids.setup.widget.TextWithActionLinkAndIconView
+            android:id="@+id/kidsetup_secondary_account_consent_section_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/kidsetup_secondary_account_consent_list_button"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/kidsetup_secondary_account_consent_subsections"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"/>
+    <View
+        android:id="@+id/kidsetup_app_detail_info_divider"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="40dp"
+        style="@style/kidsetup_horizontal_divider"/>
+</merge>

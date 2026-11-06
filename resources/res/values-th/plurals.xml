@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">บล็อกแอปบางแอปไม่ได้</item>
+        <item quantity="one">บล็อกแอปไม่ได้</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">บล็อกแอปเหล่านี้ในอุปกรณ์นี้ไม่ได้ ผู้ให้บริการเครือข่ายมือถือหรือผู้ผลิตอุปกรณ์อาจต้องใช้แอปดังกล่าว</item>
+        <item quantity="one">บล็อกแอปนี้ในอุปกรณ์นี้ไม่ได้ ผู้ให้บริการเครือข่ายมือถือหรือผู้ผลิตอุปกรณ์อาจต้องใช้แอปนี้</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d ชม.</item>
+        <item quantity="one">%d ชม.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">มีอุปกรณ์ %1$d เครื่องที่ใช้งานกับบัญชีของคุณไม่ได้แล้ว</item>
+        <item quantity="one">มีอุปกรณ์ %1$d เครื่องที่ใช้งานกับบัญชีของคุณไม่ได้แล้ว</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">無法封鎖部分應用程式。</item>
+        <item quantity="one">無法封鎖 1 個應用程式。</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">無法在這個裝置上封鎖這些應用程式。您的電信業者或裝置製造商可能需要這些應用程式。</item>
+        <item quantity="one">無法在這個裝置上封鎖這個應用程式。您的電信業者或裝置製造商可能需要這個應用程式。</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">有 %1$d 個裝置將不再支援你的帳戶</item>
+        <item quantity="one">有 %1$d 個裝置將不再支援你的帳戶</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Չհաջողվեց արգելափակել որոշ հավելվածներ:</item>
+        <item quantity="one">Չհաջողվեց արգելափակել հավելվածը:</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Հավելվածները չհաջողվեց արգելափակել այս սարքում: Հավանաբար ձեր բջջային օպերատորը կամ սարքի արտադրողը թույլ չի տալիս արգելափակել այն:</item>
+        <item quantity="one">Հավելվածը չհաջողվեց արգելափակել այս սարքում: Հավանաբար ձեր բջջային օպերատորը կամ սարքի արտադրողը թույլ չի տալիս արգելափակել այն:</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d ժ</item>
+        <item quantity="one">%d ժ</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d ր</item>
+        <item quantity="one">%d ր</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">%d րոպե</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Ձեր հաշիվը չի աշխատի %1$d սարքում</item>
+        <item quantity="one">Ձեր հաշիվը չի աշխատի %1$d սարքում</item>
+    </plurals>
+</resources>

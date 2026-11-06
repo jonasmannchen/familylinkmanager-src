@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">কয়েকটি অ্যাপ ব্লক করা যায়নি।</item>
+        <item quantity="one">কয়েকটি অ্যাপ ব্লক করা যায়নি।</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">এই ডিভাইসে এই অ্যাপগুলি ব্লক করা যায়নি। এগুলি আপনার পরিষেবা প্রদানকারী বা ডিভাইসের প্রস্তুতকারকের প্রয়োজনীয় অ্যাপ হতে পারে।</item>
+        <item quantity="one">এই ডিভাইসে এই অ্যাপগুলি ব্লক করা যায়নি। এগুলি আপনার পরিষেবা প্রদানকারী বা ডিভাইসের প্রস্তুতকারকের প্রয়োজনীয় অ্যাপ হতে পারে।</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">%d ঘণ্টা</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">%d মিনিট</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">%d মিনিট</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">আপনার %1$dটি ডিভাইস রয়েছে যা আপনার অ্যাকাউন্ট ব্যবহার করে আর কাজ করবে না</item>
+        <item quantity="one">আপনার %1$dটি ডিভাইস রয়েছে যা আপনার অ্যাকাউন্ট ব্যবহার করে আর কাজ করবে না</item>
+    </plurals>
+</resources>

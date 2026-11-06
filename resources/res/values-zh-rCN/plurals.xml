@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">无法屏蔽部分应用。</item>
+        <item quantity="one">无法屏蔽一个应用。</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">无法在此设备上屏蔽这些应用。您的移动运营商或设备制造商可能需要这些应用。</item>
+        <item quantity="one">无法在此设备上屏蔽此应用。您的移动运营商或设备制造商可能需要此应用。</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">您将无法在 %1$d 台设备上使用您的帐号</item>
+        <item quantity="one">您将无法在 %1$d 台设备上使用您的帐号</item>
+    </plurals>
+</resources>

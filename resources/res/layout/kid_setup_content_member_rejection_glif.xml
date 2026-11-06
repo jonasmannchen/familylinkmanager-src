@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_rejection_action_title"
+        style="@style/SuwDescription.Glif"/>
+    <TextView
+        android:id="@+id/kid_setup_member_rejection_action_subtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        style="@style/SuwDescription.Glif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_rejection_action_item1"
+        style="@style/SuwDescription.Glif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_rejection_action_item2"
+        style="@style/SuwDescription.Glif"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/member_rejection_why_title"
+        style="@style/SuwDescription.Glif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_rejection_why_content"
+        style="@style/SuwDescription.Glif"/>
+</merge>

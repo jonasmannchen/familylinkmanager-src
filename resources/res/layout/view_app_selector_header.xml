@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <com.google.android.gms.kids.setup.widget.EnhancedNetworkImageView
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@+id/kidsetup_app_selector_header_rating_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/kidsetup_app_selector_header_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        style="@style/quantum_text_subhead_black"/>
+    <ImageButton
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/kidsetup_app_selector_header_info_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/quantum_ic_info_outline_grey600_24"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+</LinearLayout>

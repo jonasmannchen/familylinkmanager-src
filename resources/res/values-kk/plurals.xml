@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Кейбір қолданбалар бөгелмеді.</item>
+        <item quantity="one">Қолданба бөгелмеді.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Бұл қолданбалар осы құрылғыда бөгелмеді. Оларды мобильдік оператор немесе құрылғы өндірушісі сұрауы мүмкін.</item>
+        <item quantity="one">Бұл қолданба осы құрылғыда бөгелмеді. Мұны мобильдік оператор немесе құрылғы өндірушісі сұрауы мүмкін.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d сағ</item>
+        <item quantity="one">%d сағ</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">%1$d құрылғыңыз енді есептік жазбаңызбен жұмыс істемейді</item>
+        <item quantity="one">%1$d құрылғыңыз енді есептік жазбаңызбен жұмыс істемейді</item>
+    </plurals>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Nu s-au putut bloca unele aplicații.</item>
+        <item quantity="one">Nu s-a putut bloca o aplicație.</item>
+        <item quantity="few">Nu s-au putut bloca unele aplicații.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Aceste aplicații nu au putut fi blocate pe dispozitiv. Este posibil să fie solicitate de operatorul de telefonie mobilă sau de producătorul dispozitivului.</item>
+        <item quantity="one">Această aplicație nu a putut fi blocată pe dispozitiv. Este posibil să fie solicitată de operatorul de telefonie mobilă sau de producătorul dispozitivului.</item>
+        <item quantity="few">Aceste aplicații nu au putut fi blocate pe dispozitiv. Este posibil să fie solicitate de operatorul de telefonie mobilă sau de producătorul dispozitivului.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Ai %1$d de dispozitive care nu mai sunt compatibile cu contul</item>
+        <item quantity="one">Ai %1$d dispozitiv care nu mai este compatibil cu contul</item>
+        <item quantity="few">Ai %1$d dispozitive care nu mai sunt compatibile cu contul</item>
+    </plurals>
+</resources>

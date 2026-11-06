@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/kids_time_limit_start">
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.LockScreenAccountInterceptorFragment"
+        android:id="@+id/kids_time_limit_start">
+        <action
+            android:id="@+id/kids_action_local_unlock"
+            app:destination="@+id/kids_time_limit_local_unlock"/>
+    </fragment>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.LockScreenLocalUnlockFragment"
+        android:id="@+id/kids_time_limit_local_unlock">
+        <action
+            android:id="@+id/kids_action_local_unlock_confirmed"
+            app:destination="@+id/kids_time_limit_local_unlock_confirmed"/>
+    </fragment>
+    <fragment
+        android:name="com.google.android.gms.kids.features.timelimit.LockScreenAccountInterceptorPostAckFragment"
+        android:id="@+id/kids_time_limit_local_unlock_confirmed"/>
+</navigation>

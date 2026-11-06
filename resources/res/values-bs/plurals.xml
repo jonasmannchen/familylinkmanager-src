@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hide_app_failed_headline">
+        <item quantity="other">Blokiranje nekih aplikacija nije uspjelo.</item>
+        <item quantity="one">Blokiranje nekih aplikacija nije uspjelo.</item>
+        <item quantity="few">Blokiranje nekih aplikacija nije uspjelo.</item>
+    </plurals>
+    <plurals name="hide_app_failed_subheading">
+        <item quantity="other">Blokiranje aplikacija na ovom uređaju nije uspjelo. Moguće je da su neophodne vašem mobilnom operateru ili proizvođaču uređaja.</item>
+        <item quantity="one">Blokiranje aplikacija na ovom uređaju nije uspjelo. Moguće je da su neophodne vašem mobilnom operateru ili proizvođaču uređaja.</item>
+        <item quantity="few">Blokiranje aplikacija na ovom uređaju nije uspjelo. Moguće je da su neophodne vašem mobilnom operateru ili proizvođaču uređaja.</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_hours">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+    </plurals>
+    <plurals name="kids_time_limit_num_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="kids_time_limit_warning_notification_message">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="not_allowed_devices_warning">
+        <item quantity="other">Imaš %1$d uređaja koji neće više raditi s tvojim računom</item>
+        <item quantity="one">Imaš %1$d uređaj koji neće više raditi s tvojim računom</item>
+        <item quantity="few">Imaš %1$d uređaja koja neće više raditi s tvojim računom</item>
+    </plurals>
+</resources>
