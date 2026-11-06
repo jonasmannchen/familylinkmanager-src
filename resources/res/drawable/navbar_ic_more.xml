@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" android:autoMirrored="true">
-    <item
-        android:state_enabled="true"
-        android:drawable="@drawable/navbar_ic_more_enabled"/>
-    <item
-        android:state_enabled="false"
-        android:drawable="@drawable/navbar_ic_more_disabled"/>
-</selector>

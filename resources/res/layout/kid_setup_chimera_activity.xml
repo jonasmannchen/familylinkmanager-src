@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/kid_setup_default_touch_responder"
-    android:background="@android:color/background_light"
-    android:focusable="true"
-    android:focusableInTouchMode="true"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:importantForAccessibility="no"/>

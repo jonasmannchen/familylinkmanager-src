@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- see: b/21407182 and https://developer.android.com/studio/build/shrink-code -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict"/>
-
